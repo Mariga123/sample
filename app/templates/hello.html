@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+
+{% block content %}
+
+        <div  class="container" id="particles-js">
+                <h2 class="text-center" id="posts">All Job Pitches</h2>
+
+            {{ macro.display(job) }}
+        </div>
+{% endblock%}
